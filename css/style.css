@@ -1,0 +1,192 @@
+/* Tulis style custom di sini */
+
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+#mainNav .navbar-brand {
+  color: #fff;
+}
+
+#mainNav .navbar-nav {
+  margin-top: 1rem;
+  letter-spacing: 0.0625rem;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #18BC9C;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #18BC9C;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.8rem;
+}
+
+header.masthead {
+  padding-top: calc(2rem + 72px);
+  padding-bottom: 3rem;
+}
+
+header.masthead h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+header.masthead h2 {
+  font-size: 1.3rem;
+  font-family: 'Lato';
+}
+
+header.masthead img {
+	border-radius: 50%;
+	transform: rotate(13deg);
+}
+
+
+.row {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.row img {
+	width: 350px;
+	height: 250px;
+}
+
+.row h2 {
+	background-color: #7FFFD4;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+h2 .text-right {
+  padding-right: 10px;
+}
+
+@media (min-width: 992px) {
+  header div {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+#ul {
+  background-color: gray;
+  border-radius: 20px;
+}
+
+#kontak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sosmed {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-left: 400px;
+}
+
+.sosmed {
+  display: flex;
+  flex-direction: column;
+}
+
+.ig {
+  padding-bottom: 20px;
+}
+
+.ig a {
+  display: flex;
+  align-items: center;
+  opacity: 0.2;
+  text-decoration : none;
+}
+
+.ig a:hover {
+  background: white;
+  opacity: 1.5;
+  width: 255px;
+  height: 99px;
+  transform: scale(1.3);
+  border-radius: 10px;
+}
+
+.fb {
+  padding-bottom: 20px;
+}
+
+.fb a {
+  display: flex;
+  align-items: center;
+  opacity: 0.2;
+  text-decoration : none;
+}
+
+.fb a:hover {
+  background: white;
+  opacity: 1.5;
+  width: 255px;
+  height: 99px;
+  transform: scale(1.3);
+  border-radius: 10px;
+}
+
+.wa {
+  padding-bottom: 20px;
+}
+
+.wa a {
+  display: flex;
+  align-items: center;
+  opacity: 0.2;
+  text-decoration : none;
+}
+
+.wa a:hover {
+  background: white;
+  opacity: 1.5;
+  width: 255px;
+  height: 99px;
+  transform: scale(1.3);
+  border-radius: 10px;
+}
+
+.gmail {
+  padding-bottom: 20px;
+}
+
+.gmail a {
+  display: flex;
+  align-items: center;
+  opacity: 0.2;
+  text-decoration : none;
+}
+
+.gmail a:hover {
+  background: white;
+  opacity: 1.5;
+  width: 398px;
+  height: 85px;
+  transform: scale(1.3);
+  border-radius: 10px;
+}
+
